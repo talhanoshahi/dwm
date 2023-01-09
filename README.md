@@ -46,3 +46,7 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+Patches Applied
+-------------
+1. aspectresize-6.2 from https://dwm.suckless.org/patches/aspectresize/
