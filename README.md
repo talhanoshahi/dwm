@@ -48,5 +48,5 @@ The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 
 Patches Applied
--------------
-1. dwm-systray-6.4 from https://dwm.suckless.org/patches/systray/
+---------------
+1. AspectResize-6.2 from https://dwm.suckless.org/patches/aspectresize/
