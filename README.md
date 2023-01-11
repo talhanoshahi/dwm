@@ -52,3 +52,4 @@ Patches Applied
 1. [aspectresize-6.2](https://dwm.suckless.org/patches/aspectresize/)
 2. [functionalgaps-6.2](https://dwm.suckless.org/patches/functionalgaps/)
 3. [attachaside-6.3](https://dwm.suckless.org/patches/attachaside/)
+4. [swallow-6.3](https://dwm.suckless.org/patches/swallow/)
