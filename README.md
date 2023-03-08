@@ -54,4 +54,5 @@ Patches Applied
 3. [attachaside-6.3](https://dwm.suckless.org/patches/attachaside/)
 4. [swallow-6.3](https://dwm.suckless.org/patches/swallow/)
 5. [actual-fullscreen-20191112-cb3ff58a](https://dwm.suckless.org/patches/actualfullscreen/)
-4. [bar height-6.3](https://dwm.suckless.org/patches/bar_height/)
+6. [bar height-6.3](https://dwm.suckless.org/patches/bar_height/)
+7. [barpadding-20211020-a786211](https://dwm.suckless.org/patches/barpadding/dwm-barpadding-20211020-a786211.diff)
