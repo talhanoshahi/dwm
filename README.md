@@ -61,3 +61,4 @@ Patches Applied
 10. [pertag-parseltag-6.2](https://dwm.suckless.org/patches/pertag/)
 11. [preserveonstart-6.3](https://dwm.suckless.org/patches/preserveonrestart/)
 12. [hide vacant tags-6.3](https://dwm.suckless.org/patches/hide_vacant_tags/)
+13. [taglabels-hide vacant tags funcionality-6.2.](https://dwm.suckless.org/patches/taglabels/)
