@@ -59,3 +59,4 @@ Patches Applied
 8. [rainbowtags-6.2](https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff)
 9. [moveresize-20221210-7ac106c](https://dwm.suckless.org/patches/moveresize/)
 10. [pertag-parseltag-6.2](https://dwm.suckless.org/patches/pertag/)
+11. [preserveonstart-6.3](https://dwm.suckless.org/patches/preserveonrestart/)
