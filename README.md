@@ -57,3 +57,4 @@ Patches Applied
 6. [bar height-6.3](https://dwm.suckless.org/patches/bar_height/)
 7. [barpadding-20211020-a786211](https://dwm.suckless.org/patches/barpadding/dwm-barpadding-20211020-a786211.diff)
 8. [rainbowtags-6.2](https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff)
+9. [moveresize-20221210-7ac106c](https://dwm.suckless.org/patches/moveresize/)
