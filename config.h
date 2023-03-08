@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 3;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const int startwithgaps	     = 1;	 /* 1 means gaps are used by default */
 static const unsigned int gappx     = 10;       /* default gap between windows in pixels */
 static const unsigned int snap      = 22;       /* snap pixel */
@@ -12,8 +12,8 @@ static const int user_bh            = 10;        /* 2 is the default spacing aro
 static const int vertpad            = 10;       /* vertical padding of bar */
 static const int sidepad            = 10;       /* horizontal padding of bar */
 static const int viewonrulestag 	= 1;		 /* 1 means when open applications view will move to tags defined in rules*/
-static const char *fonts[]          = { "Hack Nerd Font:style=Regular:size=12:antialias=true", "Noto Sans Mono:size=12:antialias=true"};
-static const char dmenufont[]       = "Noto Sans Mono:size=12";
+static const char *fonts[]          = { "Hack Nerd Font:style=Regular:size=12:antialias=true", "Noto Color Emoji:size=12", "monospace:size=12:antialias=true"};
+static const char dmenufont[]       = "monospace:size=12";
 
 #include "/home/system_failure/.cache/wal/colors-wal-dwm.h"
 
@@ -47,9 +47,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class     instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
-	{ "firefox", NULL,     NULL,           1,	  0,          0,          -1,        -1 },
+	{ "Firefox", NULL,     NULL,           1,	  0,          0,          -1,        -1 },
 	{ "St",      NULL,     NULL,           0,         0,          1,           0,        -1 },
-	{ NULL,      NULL,     NULL,	       1 << 5,         0,          0,           1,        -1 }, /* xev */
+	{ NULL,      NULL,     NULL,	       1 << 4,         0,          0,           1,        -1 }, /* xev */
 };
 
 /* layout(s) */
@@ -83,7 +83,7 @@ static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_space,  spawn,	    {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,                       XK_space,  spawn,	    {.v = dmenucmd } },
 	{ MODKEY,	                XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_g,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
