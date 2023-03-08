@@ -8,13 +8,13 @@ static const unsigned int snap      = 22;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Noto Sans Mono:size=12", "fontawesome:size=12"};
+static const char *fonts[]          = { "Hack Nerd Font:style=Regular:size=12:antialias=true", "Noto Sans Mono:size=12:antialias=true"};
 static const char dmenufont[]       = "Noto Sans Mono:size=12";
 
 #include "/home/system_failure/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -76,6 +76,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_r,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_t,	   setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_r,	   togglefloating, {0} },
+	{ MODKEY,             XK_x,      togglefullscr,  {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },

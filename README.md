@@ -53,3 +53,4 @@ Patches Applied
 2. [functionalgaps-6.2](https://dwm.suckless.org/patches/functionalgaps/)
 3. [attachaside-6.3](https://dwm.suckless.org/patches/attachaside/)
 4. [swallow-6.3](https://dwm.suckless.org/patches/swallow/)
+4. [actual-fullscreen-20191112-cb3ff58a](https://dwm.suckless.org/patches/actualfullscreen/)
