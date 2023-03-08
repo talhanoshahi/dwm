@@ -11,6 +11,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 10;        /* 2 is the default spacing around the bar's font */
 static const int vertpad            = 10;       /* vertical padding of bar */
 static const int sidepad            = 10;       /* horizontal padding of bar */
+static const int viewonrulestag 	= 1;		 /* 1 means when open applications view will move to tags defined in rules*/
 static const char *fonts[]          = { "Hack Nerd Font:style=Regular:size=12:antialias=true", "Noto Sans Mono:size=12:antialias=true"};
 static const char dmenufont[]       = "Noto Sans Mono:size=12";
 
@@ -37,10 +38,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class     instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
-	{ "Gimp",    NULL,     NULL,           0,         1,          0,           0,        -1 },
-	{ "Firefox", NULL,     NULL,           1 << 8,    0,          0,          -1,        -1 },
+	{ "firefox", NULL,     NULL,           1,	  0,          0,          -1,        -1 },
 	{ "St",      NULL,     NULL,           0,         0,          1,           0,        -1 },
-	{ NULL,      NULL,     "Event Tester", 0,         0,          0,           1,        -1 }, /* xev */
+	{ NULL,      NULL,     NULL,	       1 << 5,         0,          0,           1,        -1 }, /* xev */
 };
 
 /* layout(s) */
