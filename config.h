@@ -8,6 +8,7 @@ static const unsigned int snap      = 22;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int user_bh            = 10;        /* 2 is the default spacing around the bar's font */
 static const char *fonts[]          = { "Hack Nerd Font:style=Regular:size=12:antialias=true", "Noto Sans Mono:size=12:antialias=true"};
 static const char dmenufont[]       = "Noto Sans Mono:size=12";
 
