@@ -56,3 +56,4 @@ Patches Applied
 5. [actual-fullscreen-20191112-cb3ff58a](https://dwm.suckless.org/patches/actualfullscreen/)
 6. [bar height-6.3](https://dwm.suckless.org/patches/bar_height/)
 7. [barpadding-20211020-a786211](https://dwm.suckless.org/patches/barpadding/dwm-barpadding-20211020-a786211.diff)
+8. [rainbowtags-6.2](https://dwm.suckless.org/patches/rainbowtags/dwm-rainbowtags-6.2.diff)
