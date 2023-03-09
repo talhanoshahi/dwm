@@ -12,7 +12,7 @@ static const int user_bh            = 10;        /* 2 is the default spacing aro
 static const int vertpad            = 10;       /* vertical padding of bar */
 static const int sidepad            = 10;       /* horizontal padding of bar */
 static const int viewonrulestag 	= 1;		 /* 1 means when open applications view will move to tags defined in rules*/
-static const char *fonts[]          = { "Hack Nerd Font:style=Regular:size=12:antialias=true", "Noto Color Emoji:size=12", "monospace:size=12:antialias=true"};
+static const char *fonts[]          = { "HackNerdFont:style=Regular:size=12:antialias=true", /*"Symbol Nerd Font:size=12",*/ "NotoColorEmoji:size=12:antialias=true:autohint=true"}; //, "monospace:size=12:antialias=true"};
 static const char dmenufont[]       = "monospace:size=12";
 
 #include "/home/system_failure/.cache/wal/colors-wal-dwm.h"
@@ -49,7 +49,8 @@ static const Rule rules[] = {
 	/* class     instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
 	{ "Firefox", NULL,     NULL,           1,	  0,          0,          -1,        -1 },
 	{ "St",      NULL,     NULL,           0,         0,          1,           0,        -1 },
-	{ NULL,      NULL,     NULL,	       1 << 4,         0,          0,           1,        -1 }, /* xev */
+	/* { NULL,      NULL,     NULL,	       1 << 4,         0,          0,           1,        -1 }, /1* xev *1/ */
+	// commented above line as it breaks swallow patch
 };
 
 /* layout(s) */
