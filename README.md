@@ -64,3 +64,4 @@ Patches Applied
 13. [taglabels-hide vacant tags funcionality-6.2](https://dwm.suckless.org/patches/taglabels/)
 14. [underlinetags-6.2](https://dwm.suckless.org/patches/underlinetags/)
 15. [status2d-6.3](https://dwm.suckless.org/patches/status2d/)
+16. [statuscmd-status2d-20210405-60bb3df](https://dwm.suckless.org/patches/statuscmd/)
